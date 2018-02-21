@@ -215,9 +215,9 @@ def Main():
     table = App.Table.get()
     
     if App.Std.get() == 1:
-        info = '批号：%s - %s，样品架编号：%s，标准曲线：有' % (start,end,table)
+        info = '批号：%s - %s，样品架编号：%s，全血七项标准曲线：有' % (start,end,table)
     else:
-        info = '批号：%s - %s，样品架编号：%s，标准曲线：无' % (start,end,table)
+        info = '批号：%s - %s，样品架编号：%s' % (start,end,table)
 
     try:
         patch = CreatePatch(start, end, table)
