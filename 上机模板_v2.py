@@ -81,7 +81,7 @@ def CreatePatch(start, end, table):
     
 def Save(Patch):
 
-    # SavePath = "C:\\Users\\7900\\Desktop\\每日上机模板\\"
+    # SavePath = "C:\\Users\\Public\\Desktop\\每日上机模板\\"
     SavePath = "D:\\desktop\\"
 
     wb = Workbook()
